@@ -170,7 +170,12 @@
 	
 	.well-come {
 		margin-top: 150px;
-		font-size: 48px;
+		font-size: 72px;
+	}
+
+	.well-come-pre {
+		margin-top: 150px;
+		font-size: 32px;
 	}
 	
 	.features-control {
