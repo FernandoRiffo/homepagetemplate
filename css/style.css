@@ -175,7 +175,6 @@ font-weight: 700;
 }
 
 .section-overlay {
-	background: rgba(0, 0, 0, .7) !important;
 	z-index: 5;
 }
 
@@ -282,6 +281,26 @@ font-weight: 700;
 	line-height: 35px;
 }
 
+.site-name-footer {
+	color: rgba(0,0,0, .6);
+	font-family: 'Bangers', cursive;
+	font-size: 24px;
+	padding: 8px 15px;
+	letter-spacing: 1px;
+}
+
+.site-name-footer span {
+	color: rgba(0,0,0, .6);
+	padding: 0 13px;
+	font-weight: 400;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	margin-right: 3px;
+	font-size: 28px;
+	line-height: 35px;
+}
+
 .nav-hold {
 	left: 0;
 	right: 0;
@@ -318,7 +337,7 @@ color:#ccc !important;
 }
 
 .home {
-	min-height: 750px;
+	min-height: 100vh;
 }
 
 .well-come {
@@ -541,24 +560,6 @@ left: calc(50% - 110px);
 	padding: 0 10px;
 }
 
-
-/* ================ Video Section ================ */
-#section-video {
-	position:relative;
-}
-.container.big-video {
-	padding-top: 96px;
-	padding-bottom: 120px;
-}
-
-.video-content iframe {
-border: 0 !important;
-}
-
-
-
-
-
 /* ================ ScreenShots Section ================ */
 #section-screenshots {
 	background-color:#333333;
@@ -719,10 +720,6 @@ border: 0 !important;
 	min-height: 400px;
 }
 
-.backToProject {
-
-}
-
 .back-button {
 	display:none;
 	padding-top: 60px;
@@ -754,7 +751,8 @@ margin-right: 8px;
 
 /* ================ Testimonials Section ================ */
 #section-testimonials {
-	color:#e5e5e5;
+	background-color: #f9f9f9;
+	color: rgba(0, 0, 0, .7);
 }
 
 .testimonials-wrap {
@@ -968,6 +966,7 @@ margin-right: 8px;
 
 /* ================ Contact Section ================ */
 #section-contact {
+	background-color:#333333;
 	position:relative;
 }
 
@@ -1046,10 +1045,10 @@ margin-right: 8px;
 
 /* ================ Footer Section ================ */
 #section-footer {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	background: #333;
-	color:#e5e5e5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f9f9f9;
+	color: rgba(0, 0, 0, .7);
 }
 
 .footer-title {
@@ -1065,7 +1064,6 @@ margin-right: 8px;
 .social-icons ul li a{
 	margin-left: 10px;
 	font-size: 28px;
-	color: #9D9D9D;
 	font-weight: normal;
 	text-shadow: none;
 
@@ -1077,35 +1075,4 @@ margin-right: 8px;
 
 .copyright {
 	padding-top: 15px;
-}
-
-/* FB popUp */
-
-.fb-popup {
-	display: none;
-	position: fixed;
-	max-width: 460px;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	padding: 25px;
-	top: 150px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	z-index: 100000;
-}
-.fb-close {
-	position: absolute;
-	right: 10px;
-	top: 10px;
-	color: #B5B5B5;
-	cursor: pointer;
-}
-.fb-popup h5{
-	text-align: center;
-	text-transform: uppercase;
-	color: #4A4949;
-	font-size: 1em;
-	font-weight: 700;
-	margin-bottom: 30px;
 }
